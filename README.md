@@ -12,16 +12,18 @@ Signed Distance Function(SDF) means the method we estimate the point cloud to de
 ## Installation
 ### Requirement
 Linux (Ubuntu 16.04)  
-Python 3.6+  
+Python 3.7(for 3090 or higher)
 PyTorch 1.7 or higher  
 CUDA 10.2 or higher
 
 ### create environment
 ```
-git clone https://github.com/jayliu0313/Shape-Guided.git
+git clone https://github.com/zhiqing0205/Shape-Guided.git
 cd Shape-Guided
-conda create --name myenv python=3.6
-conda activate myenv
+conda create --name shape-guided python=3.7
+conda activate shape-guided
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
 pip install -r requirement.txt
 ```
 
