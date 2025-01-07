@@ -20,7 +20,7 @@ CUDA 10.2 or higher
 ```
 git clone https://github.com/zhiqing0205/Shape-Guided.git
 cd Shape-Guided
-conda create --name shape-guided python=3.7
+conda create --name shape-guided python=3.7 -y
 conda activate shape-guided
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
